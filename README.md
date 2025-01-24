@@ -24,7 +24,7 @@ The goal of this project was to create a land-selling website. Here are the key 
 Since this project was created before I learned Git practices, the entire development was done without regular commits, and the repository contains the completed project files.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: React,Css
 - **Backend**: Node.js
 - **Database**: MySQL (with XAMPP)
 - **API Testing**: Postman
