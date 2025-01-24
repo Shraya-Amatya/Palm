@@ -1,0 +1,96 @@
+.box {
+  width: 100%;
+  max-width: 315px;
+  background: #ffffff;
+}
+
+.image {
+  width: 100%;
+  height: 280px; 
+  background: url(../../assets/plot.png);
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.content {
+  
+
+  h3 {
+    width: 100%;
+    height: 25px;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.0025em;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #060606;
+  }
+
+  .available {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 21px;
+
+    .popins, .green, .red {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.01em;
+    }
+
+    .popins {
+      color: #4f4f4f;
+    }
+
+    .green {
+      color: #4fd22e;
+    }
+
+    .red {
+      color: #ff2d18;
+    }
+  }
+
+  .gap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 26px;
+
+    .img, .img2, .img3, .img4 {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .location {
+    max-width: 249px;
+    height: 14px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #4f4f4f;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .box {
+    max-width: 240px; 
+  }
+  .content .available {
+    gap: 17px;
+  }
+}

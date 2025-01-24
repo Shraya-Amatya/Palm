@@ -1,0 +1,29 @@
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; 
+    justify-content: space-evenly;
+  }
+  
+
+
+  .heading {
+    /* Our Associated Partners */
+
+display: flex;
+justify-content: center;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+/* identical to box height, or 42px */
+letter-spacing: 0.0025em;
+
+/* Black */
+color: #060606;
+
+
+  }
+

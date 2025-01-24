@@ -1,0 +1,126 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 102px;
+
+.container {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 540px;
+  height: 403px;
+
+  .head {
+    /* Forgot Password? */
+
+    width: 339px;
+    height: 52px;
+
+    /* Heading 1 */
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.0025e;
+    color: #060606;
+  }
+  .para {
+    width: 529px;
+    height: 54px;
+
+    /* Paragraph */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.0025em;
+
+    color: #4f4f4f;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    width: 100%;
+    height: 54px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  .btn {
+    align-items: center;
+    width: 540px;
+    height: 64px;
+    background: #425cec;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    .btntext {
+      /* Continue */
+      width: 94px;
+      height: 30px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px; /* identical to box height */
+      color: #fefefe;
+      text-align: center; /* Center text horizontally */
+    }
+  }
+  
+  .signup{
+    /* Don’t have an account? */
+
+width: 194px;
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+letter-spacing: 0.01em;
+
+/* Paragraph */
+color: #4F4F4F;
+
+
+  }
+  .signtext{
+    /* Sign Up */
+
+width: 63px;
+height: 22px;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+letter-spacing: 0.01em;
+
+/* Paragraph */
+color: #4F4F4F;
+
+
+
+  }
+}
+}

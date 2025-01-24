@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: #FFFFFF;
+    
+
+  .logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 00px;
+  }
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 0px;
+      gap: 0px;
+      list-style: none;
+    }
+  
+    a{ 
+      width: 62px;
+      height: 21px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333333;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      text-decoration: none; /* Adding text-decoration: none */
+    }
+  
+    .btn {
+      
+     
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #FEFEFE;
+   
+      order: 0;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 16px;
+      gap: 10px;
+      background: #425CEC;
+      border-radius: 4px;
+      
+      text-decoration: none; /* Adding text-decoration: none */
+    }
+  }
+  .banner{
+    /* Banner */
+
+position: absolute;
+width: 1320px;
+height: 640px;
+right: 60px;
+top: 96px;
+
+border-radius: 12px;
+
+  }
+  

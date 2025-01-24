@@ -1,0 +1,98 @@
+.banner {
+    
+        /* Login  */
+        display: flex;
+        
+        align-items: center; 
+        position: relative;
+        width: 1320px; /* Banner width */
+        height: 420px;
+        left: 50px;
+        background: #425cec;
+        border-radius: 32px;
+        top: 4000px;
+
+  
+    .content {
+      /* Frame 88 */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 32px;
+  
+      position: relative;
+      width: 539px;
+      height: 223px;
+      left: 60px;
+  
+      h1 {
+        /* Ready To Find Your Dream Plot? */
+        width: 494px;
+        height: 42px;
+        font-family: "Lora", serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: 0.0025em;
+        color: #ffffff;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+  
+      p {
+        /* Log in to your account to manage your plots, view exclusive offers, and stay updated with the latest developments in our community. */
+        width: 538px;
+        height: 81px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.0025em;
+        color: #ffffff;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+  
+      .btn {
+        box-sizing: border-box;
+        font-family: "Poppins";
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        color: #f7f7f7;
+        background: #425cec;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 32px;
+        gap: 10px;
+        width: 156px;
+        height: 48px;
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        z-index: 999;
+      
+  
+        .contact {
+          width: 92px;
+          height: 24px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 0.01em;
+          color: #f7f7f7;
+        }
+      }
+    }
+  
+    .image {
+      position: relative;
+      left: 90px;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  position: relative;
+  top: 90px;
+
+  .partners {
+    display: flex;
+    gap: 32px;
+    .grey {
+      
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 628px;
+    width: 100%;
+    padding: 0;
+
+    .heading {
+      max-width: 548px;
+      font-family: "Lora";
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 130%;
+      color: #060606;
+      margin: 0;
+      text-align: left;
+    }
+
+    .paragraph, .paragraph2 {
+      width: 100%;
+      max-width: 628px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.01em;
+      color: #4f4f4f;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .view {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.0025em;
+      color: #425cec;
+      margin-top: 32px;
+      justify-content: flex-start;
+      width: 113px;
+      height: 24px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+
+  &:nth-child(2n) .partners {
+    flex-direction: row-reverse;
+  }
+
+  /* Media Query for larger screens */
+  @media only screen and (max-width: 1440px) {
+    .partners {
+      gap: 28px;
+    }
+    .content .heading {
+      font-size: 26px;
+    }
+    .content .paragraph, .content .paragraph2 {
+      font-size: 14px;
+    }
+  }
+
+  /* Media Query for smaller screens */
+  @media only screen and (max-width: 1024px) {
+    .partners {
+      gap: 20px; // Adjusted gap for smaller screens
+    }
+    .partners .grey {
+      max-width: 502px; // Adjusted max-width for smaller screens
+    }
+    .content .heading {
+      font-size: 22px;
+    }
+  }
+}
